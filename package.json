@@ -1,0 +1,26 @@
+{
+  "name": "nodejs-typescript-starter-kit",
+  "version": "1.0.0",
+  "description": "Yet another Node.js and TypeScript starter kit to quick start the full stack development",
+  "main": "dist/server.js",
+  "scripts": {
+    "build-ts": "tsc",
+    "start": "npm run serve",
+    "serve": "node dist/server.js",
+    "watch-node": "nodemon dist/server.js",
+    "watch-ts": "tsc -w"
+  },
+  "keywords": [],
+  "author": "0xc0d3r",
+  "license": "ISC",
+  "devDependencies": {
+    "chalk": "^3.0.0",
+    "nodemon": "^2.0.2",
+    "tslint": "^6.0.0",
+    "typescript": "^3.8.2"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.2",
+    "express": "^4.17.1"
+  }
+}
